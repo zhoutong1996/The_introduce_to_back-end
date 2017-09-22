@@ -1,0 +1,7 @@
+sudo apt-get update
+sudo apt-get -y install python-setuptools
+sudo apt-get -y install python-dev
+sudo apt-get -y install g++
+sudo easy_install zerorpc
+sudo easy_install tornado
+sudo chmod g-wx,o-wx /home/*/.python-eggs/
